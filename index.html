@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Gulp - template</title>
+        <link rel="stylesheet" href="libs/normalize.css" />
+        <link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="css/index.min.css" />
+        <script src="libs/swiper/swiper-bundle.min.js" defer></script>
+        <script src="js/index.min.js" defer></script>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="logo">
+                        <img
+                            src="images/header-logo.png"
+                            alt="Logo - Xpress"
+                            class="logo__img"
+                        />
+                    </div>
+                    <nav class="header__nav">
+                        <a
+                            href="#"
+                            class="header__nav-link header__nav-link--active"
+                            >Home</a
+                        >
+                        <a href="#" class="header__nav-link">About</a>
+                        <a href="#" class="header__nav-link">Blog</a>
+                        <a href="#" class="header__nav-link">Contact</a>
+                    </nav>
+                    <div class="burger">
+                        <div class="burger__line"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="section hero">
+                <div class="container hero__container">
+                    <div class="hero__inner">
+                        <h2 class="hero__title">Trendy Collection</h2>
+                        <h1 class="title">Shop For What You Want</h1>
+                        <p class="hero__description">
+                            Shops are necessary places, where people go to buy
+                            their necessary things. Shopping is something which
+                            is loved
+                        </p>
+                        <button class="button">
+                            Start Shopping
+                            <div class="button__decor"></div>
+                        </button>
+                    </div>
+                    <div class="hero__img-wrap">
+                        <div class="hero__img-decor">
+                            <span class="hero__img-decor-text">Offer</span>
+                            <span class="hero__img-decor-num">20% off</span>
+                        </div>
+                        <img
+                            src="./images/hero-img.png"
+                            alt="Girl"
+                            class="hero__img"
+                        />
+                    </div>
+                    <div class="circle circle-1"></div>
+                    <div class="circle circle-2"></div>
+                    <div class="circle circle-3"></div>
+                    <div class="circle circle-4"></div>
+                    <div class="circle circle-5"></div>
+                    <div class="circle circle-6"></div>
+                    <div class="circle circle-7"></div>
+                </div>
+            </section>
+
+            <div class="container">
+                <section class="section more-slider">
+                    <div class="more-slider__swiper swiper">
+                        <div class="more-slider swiper-wrapper">
+                            <div class="more-slider__slide swiper-slide">
+                                <img
+                                    src="./images/more-slider/more-slider-1.jpg"
+                                    alt="Man"
+                                    class="more-slider__img"
+                                />
+                            </div>
+                            <div class="more-slider__slide swiper-slide">
+                                <img
+                                    src="./images/more-slider/more-slider-2.jpg"
+                                    alt="Girl"
+                                    class="more-slider__img"
+                                />
+                            </div>
+                            <div class="more-slider__slide swiper-slide">
+                                <img
+                                    src="./images/more-slider/more-slider-3.jpg"
+                                    alt="Kid"
+                                    class="more-slider__img"
+                                />
+                            </div>
+                            <div class="more-slider__slide swiper-slide">
+                                <img
+                                    src="./images/more-slider/more-slider-1.jpg"
+                                    alt="Man"
+                                    class="more-slider__img"
+                                />
+                            </div>
+                            <div class="more-slider__slide swiper-slide">
+                                <img
+                                    src="./images/more-slider/more-slider-2.jpg"
+                                    alt="Girl"
+                                    class="more-slider__img"
+                                />
+                            </div>
+                            <div class="more-slider__slide swiper-slide">
+                                <img
+                                    src="./images/more-slider/more-slider-3.jpg"
+                                    alt="Kid"
+                                    class="more-slider__img"
+                                />
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </section>
+
+                <section class="section new">
+                    <h2 class="section__title">New Arrival</h2>
+                    <ul class="new__list">
+                        <li class="new__item">
+                            <img
+                                src="./images/new/new-1.jpg"
+                                alt="Girl - 1"
+                                class="new__img"
+                            />
+                        </li>
+                        <li class="new__item">
+                            <img
+                                src="./images/new/new-2.jpg"
+                                alt="Girl - 2"
+                                class="new__img"
+                            />
+                        </li>
+                        <li class="new__item">
+                            <img
+                                src="./images/new/new-3.jpg"
+                                alt="Girl - 3"
+                                class="new__img"
+                            />
+                        </li>
+                        <li class="new__item">
+                            <img
+                                src="./images/new/new-4.jpg"
+                                alt="Girl - 4"
+                                class="new__img"
+                            />
+                        </li>
+                        <li class="new__item">
+                            <img
+                                src="./images/new/new-5.jpg"
+                                alt="Girl - 5"
+                                class="new__img"
+                            />
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="section top">
+                    <h2 class="section__title section__title--center">
+                        Top Selling Products
+                    </h2>
+                    <h3 class="section__subtitle">
+                        We too believe that shopping is relaxing is thing as
+                        whenever I get too stressed or tensed. I often go for
+                        shopping.
+                    </h3>
+                    <div class="top__slider swiper">
+                        <div class="swiper-wrapper">
+                            <div class="top__slider-item swiper-slide">
+                                <img
+                                    src="./images/top/top-1.jpg"
+                                    alt="Girl - 1"
+                                    class="top__slider-img"
+                                />
+                            </div>
+                            <div class="top__slider-item swiper-slide">
+                                <img
+                                    src="./images/top/top-2.jpg"
+                                    alt="Girl - 2"
+                                    class="top__slider-img"
+                                />
+                            </div>
+                            <div class="top__slider-item swiper-slide">
+                                <img
+                                    src="./images/top/top-3.jpg"
+                                    alt="Girl - 3"
+                                    class="top__slider-img"
+                                />
+                            </div>
+                            <div class="top__slider-item swiper-slide">
+                                <img
+                                    src="./images/top/top-4.jpg"
+                                    alt="Girl - 4"
+                                    class="top__slider-img"
+                                />
+                            </div>
+                            <div class="top__slider-item swiper-slide">
+                                <img
+                                    src="./images/top/top-5.jpg"
+                                    alt="Girl - 5"
+                                    class="top__slider-img"
+                                />
+                            </div>
+                            <div class="top__slider-item swiper-slide">
+                                <img
+                                    src="./images/top/top-1.jpg"
+                                    alt="Girl - 1"
+                                    class="top__slider-img"
+                                />
+                            </div>
+                            <div class="top__slider-item swiper-slide">
+                                <img
+                                    src="./images/top/top-2.jpg"
+                                    alt="Girl - 2"
+                                    class="top__slider-img"
+                                />
+                            </div>
+                            <div class="top__slider-item swiper-slide">
+                                <img
+                                    src="./images/top/top-3.jpg"
+                                    alt="Girl - 3"
+                                    class="top__slider-img"
+                                />
+                            </div>
+                            <div class="top__slider-item swiper-slide">
+                                <img
+                                    src="./images/top/top-4.jpg"
+                                    alt="Girl - 4"
+                                    class="top__slider-img"
+                                />
+                            </div>
+                            <div class="top__slider-item swiper-slide">
+                                <img
+                                    src="./images/top/top-5.jpg"
+                                    alt="Girl - 5"
+                                    class="top__slider-img"
+                                />
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </section>
+
+                <section class="section speciality">
+                    <h2 class="section__title section__title--center">
+                        Our Speciality
+                    </h2>
+                    <h3 class="section__subtitle">
+                        We too believe that shopping is relaxing is thing as
+                        whenever I get too stressed or tensed. I often go for
+                    </h3>
+
+                    <ul class="speciality__list">
+                        <li class="speciality__item">
+                            <div class="speciality__img-wrapper">
+                                <img
+                                    src="./images/speciality/speciality-1.svg"
+                                    alt="Settings"
+                                    class="speciality__img"
+                                />
+                            </div>
+                            <h4 class="speciality__item-title">
+                                24/7 Services
+                            </h4>
+                            <p class="speciality__item-description">
+                                Shops are necessary places,a where people go to
+                                buy is on their
+                            </p>
+                        </li>
+
+                        <li class="speciality__item">
+                            <div class="speciality__img-wrapper">
+                                <img
+                                    src="./images/speciality/speciality-2.svg"
+                                    alt="Dollar"
+                                    class="speciality__img"
+                                />
+                            </div>
+                            <h4 class="speciality__item-title">
+                                Exchange Opportunites
+                            </h4>
+                            <p class="speciality__item-description">
+                                Shops are necessary places,a where people go to
+                                buy is on their
+                            </p>
+                        </li>
+
+                        <li class="speciality__item">
+                            <div class="speciality__img-wrapper">
+                                <img
+                                    src="./images/speciality/speciality-3.svg"
+                                    alt="Procent"
+                                    class="speciality__img"
+                                />
+                            </div>
+                            <h4 class="speciality__item-title">
+                                More Then Offer
+                            </h4>
+                            <p class="speciality__item-description">
+                                Shops are necessary places,a where people go to
+                                buy is on their
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+            <section class="section brand">
+                <div class="container">
+                    <h2 class="section__title">Our Top Brand</h2>
+                </div>
+                <div class="brand__inner">
+                    <div class="container">
+                        <ul class="brand__list">
+                            <li class="brand__item">
+                                <img
+                                    src="./images/brand/brand-1.png"
+                                    alt="Logo - inkologist"
+                                    class="brand__img"
+                                />
+                            </li>
+                            <li class="brand__item">
+                                <img
+                                    src="./images/brand/brand-2.png"
+                                    alt="Logo - PRINT PLACE"
+                                    class="brand__img"
+                                />
+                            </li>
+                            <li class="brand__item">
+                                <img
+                                    src="./images/brand/brand-3.png"
+                                    alt="Logo - BOSS trailers"
+                                    class="brand__img"
+                                />
+                            </li>
+                            <li class="brand__item">
+                                <img
+                                    src="./images/brand/brand-4.png"
+                                    alt="Logo - ipowl"
+                                    class="brand__img"
+                                />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section blog">
+                <div class="container">
+                    <h2 class="section__title">Recent Blog Posts</h2>
+                    <div class="blog__inner">
+                        <ul class="blog__list">
+                            <li class="blog__item">
+                                <div class="blog__item-img-wrapper">
+                                    <img
+                                        src="./images/blog/blog-1.jpg"
+                                        alt="Parfume"
+                                        class="blog__item-img"
+                                    />
+                                </div>
+                                <div class="blog__info">
+                                    <h3 class="blog__title">Foog Parfume</h3>
+                                    <p class="blog__description">
+                                        I too believe that shopping is relaxing
+                                        is thing as whenever I get too stressed
+                                        or tensed. I often go for shopping.
+                                    </p>
+                                    <div class="blog__footer">
+                                        <button class="blog__btn">
+                                            SEE MORE
+                                        </button>
+                                        <span class="blog__date"
+                                            >Jul 17 2020
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="blog__item">
+                                <div class="blog__item-img-wrapper">
+                                    <img
+                                        src="./images/blog/blog-2.jpg"
+                                        alt="Lotion"
+                                        class="blog__item-img"
+                                    />
+                                </div>
+                                <div class="blog__info">
+                                    <h3 class="blog__title">Foog Parfume</h3>
+                                    <p class="blog__description">
+                                        I too believe that shopping is relaxing
+                                        is thing as whenever I get too stressed
+                                        or tensed. I often go for shopping.
+                                    </p>
+                                    <div class="blog__footer">
+                                        <button class="blog__btn">
+                                            SEE MORE
+                                        </button>
+                                        <span class="blog__date"
+                                            >Jul 17 2020
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="blog__item">
+                                <div class="blog__item-img-wrapper">
+                                    <img
+                                        src="./images/blog/blog-3.jpg"
+                                        alt="Cosmatics"
+                                        class="blog__item-img"
+                                    />
+                                </div>
+                                <div class="blog__info">
+                                    <h3 class="blog__title">Foog Parfume</h3>
+                                    <p class="blog__description">
+                                        I too believe that shopping is relaxing
+                                        is thing as whenever I get too stressed
+                                        or tensed. I often go for shopping.
+                                    </p>
+                                    <div class="blog__footer">
+                                        <button class="blog__btn">
+                                            SEE MORE
+                                        </button>
+                                        <span class="blog__date"
+                                            >Jul 17 2020
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__item">
+                        <div class="logo">
+                            <img
+                                src="images/footer-logo.png"
+                                alt="Logo - Xpress"
+                                class="logo__img"
+                            />
+                        </div>
+                        <p class="footer__description">
+                            Contrary to popular is not simply random text. It
+                            has
+                        </p>
+                        <div class="footer__socials">
+                            <a href="#" class="footer__socials-item">
+                                <img
+                                    src="./images/socials/facebook-icon.svg"
+                                    alt="Icon - Facebook"
+                                    class="footer__socials-img"
+                                />
+                            </a>
+                            <a href="#" class="footer__socials-item">
+                                <img
+                                    src="./images/socials/in-icon.svg"
+                                    alt="Icon - Inst"
+                                    class="footer__socials-img"
+                                />
+                            </a>
+                            <a href="#" class="footer__socials-item">
+                                <img
+                                    src="./images/socials/twitter-icon.svg"
+                                    alt="Icon - Twitter"
+                                    class="footer__socials-img"
+                                />
+                            </a>
+                            <a href="#" class="footer__socials-item">
+                                <img
+                                    src="./images/socials/in-icon.svg"
+                                    alt="Icon - In"
+                                    class="footer__socials-img"
+                                />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer__item">
+                        <h2 class="footer__item-title">Quick Link</h2>
+                        <nav class="footer__nav">
+                            <a
+                                href="#"
+                                class="footer__nav-link footer__nav-link--active"
+                                >Home</a
+                            >
+                            <a href="#" class="footer__nav-link">About</a>
+                            <a href="#" class="footer__nav-link">Blog</a>
+                            <a href="#" class="footer__nav-link">Contact</a>
+                        </nav>
+                    </div>
+
+                    <div class="footer__item">
+                        <h2 class="footer__item-title">Support</h2>
+                        <ul class="footer__info">
+                            <li class="footer__info-item">
+                                <a href="#" class="footer__info-link">FAQ</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <a href="#" class="footer__info-link"
+                                    >How it Works</a
+                                >
+                            </li>
+                            <li class="footer__info-item">
+                                <a href="#" class="footer__info-link"
+                                    >Features</a
+                                >
+                            </li>
+                            <li class="footer__info-item">
+                                <a href="#" class="footer__info-link"
+                                    >Contact</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__item">
+                        <h2 class="footer__item-title">Contact us</h2>
+                        <a
+                            href="tel:+8801767812324"
+                            class="footer__item-contact"
+                            >+880 1767812324</a
+                        >
+                        <a
+                            href="mailto:mb1673072@gmail.com"
+                            class="footer__item-contact"
+                            >mb1673072@gmail.com</a
+                        >
+                        <a href="#" class="footer__item-contact"
+                            >37/1 Aleraza Market</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
